@@ -40,6 +40,7 @@
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Surat Administrasi Umum :</h6>
+                <a class="collapse-item" href="{{ url('jenis-surat') }}">Jenis Surat</a>
                 <a class="collapse-item" href="{{ url('surat-keputusan') }}">Surat Keputusan</a>
                 <a class="collapse-item" href="{{ url('surat-tugas') }}">Surat Tugas</a>
                 <a class="collapse-item" href="{{ url('surat-undangan') }}">Surat Undangan</a>

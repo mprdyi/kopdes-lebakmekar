@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SekretarisController;
+use App\Http\Controllers\JenisSuratController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,8 +19,4 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('Duit', [SekretarisController::class, 'index']);
-Route::get('surat-keputusan', [SekretarisController::class, 'suratSk']);
-Route::get('surat-tugas', [SekretarisController::class, 'suratTugas']);
-Route::get('surat-pemberitahuan', [SekretarisController::class, 'suratPemberitahuan']);
-Route::get('surat-undangan', [SekretarisController::class, 'suratUndangan']);
+Route::get('jenis-surat', [JenisSuratController::class, 'index']);
