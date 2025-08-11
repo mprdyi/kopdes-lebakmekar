@@ -10,6 +10,6 @@ class JenisSurat extends Model
     use HasFactory;
 
     protected $table = 'jenis_surat';
-    protected $fillable = ['kode_surat', 'jenis_surat'];
+    protected $fillable = ['kode_surat', 'jenis_surat', 'nama_surat'];
 
 }
